@@ -5,7 +5,7 @@ const { MONGODB_URL } = process.env;
 
 exports.connect = () => {
 	mongoose
-		.connect(MONGODB_URL, {
+		.connect("mongodb+srv://shivanshumishra:8736955859@cluster0.hvbcah3.mongodb.net/AuthApp", {
 			useNewUrlparser: true,
 			useUnifiedTopology: true,
 		})
