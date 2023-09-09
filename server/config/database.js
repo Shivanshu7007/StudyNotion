@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const { MONGODB_URL } = process.env;
+const { MONGODB_URL="mongodb+srv://shivanshumishra:8736955859@cluster0.hvbcah3.mongodb.net/AuthApp" } = process.env;
 
 exports.connect = () => {
 	mongoose
-		.connect("mongodb+srv://shivanshumishra:8736955859@cluster0.hvbcah3.mongodb.net/AuthApp", {
+		.connect(MONGODB_URL="mongodb+srv://shivanshumishra:8736955859@cluster0.hvbcah3.mongodb.net/AuthApp", {
 			useNewUrlparser: true,
 			useUnifiedTopology: true,
 		})
