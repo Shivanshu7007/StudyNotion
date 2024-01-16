@@ -25,7 +25,7 @@ The back end of the platform is built using NodeJS and ExpressJS,. The back end 
 The database for the platform is built using MongoDB, which is a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data. The database stores the course content, user data, and other relevant information related to the platform.
 # Architecture Diagram
 Here is a high-level diagram that illustrates the architecture of the StudyNotion ed-tech platform:
-
+![architecture](https://github.com/Shivanshu7007/StudyNotion/assets/141329585/0862e8e0-3ddb-4e97-b113-904992b8945b)
 
 
 # Front End
